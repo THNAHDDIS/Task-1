@@ -1,0 +1,12 @@
+
+.section5Main{
+    width: 84.75rem;
+    height: 30.625rem;
+    position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 2px solid black;
+}

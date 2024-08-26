@@ -1,0 +1,14 @@
+.section3Main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1114px;
+    position: absolute;
+   
+    border: 2px solid black;
+    height: 492px;
+top: 2417px;
+left: 186px;
+
+
+}

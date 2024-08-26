@@ -1,0 +1,12 @@
+.section4Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72.8125rem;
+  height: 22.25rem;
+  position: absolute;
+  top: 194.3125rem;
+  left: 11.625rem;
+  border: 2px solid black;
+
+}

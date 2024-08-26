@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+.banner{
+    border: 2px solid black;
+    display: flex;
+    width: 72.53625em;
+    
+  }
+  
+  
+  .traveller{
+    left: 0;
+    top:0;
+  
+  } 
+
+  .titles{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:2px solid black;
+    width: 50%;
+  }
+
+  .titles p{
+    font-family: "Poppins",serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+
+   
+  }
+
+  .heading{
+    font-family: "Volkhov",serif;
+    font-weight: 400;
+    font-size: 84px;
+    color: rgba(24, 30, 75, 1);
+    
+  }
