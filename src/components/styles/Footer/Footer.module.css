@@ -1,10 +1,11 @@
 .footerMain{
-    width: 84.75rem;
-    height: 30.625rem;
+    width: 
+    1200.94px;
+    height:   400px;
     position: absolute;
-    top: 270rem;
-    left: 3rem;
-    border: 10px solid blue;
+    top:4320px;
+    left: 10%;
+   
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,34 +1,43 @@
+import {  useState } from "react";
 import styles from "../styles/Hero/Header.module.css"
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 export const Header = () =>{
+  
+    const[lang,setLang] = useState("EN");
+   
+
+    
     return <>
     <div className={styles.header}>
         
        <div className={styles.list}>
-         <l>Destinations</l>
-         <l>Hotels</l>
-         <l>Flights</l>
-         <l>Bookings</l>
+         <p>Destinations</p>
+         <p>Hotels</p>
+         <p>Flights</p>
+         <p>Bookings</p>
          
        </div>
        
        <div className={styles.login}>
-       <l>Login</l>
-       <button >Sign Up</button>
-       </div>
-     
-     <div className="dropdown">
-  <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    EN
+       <p>Login</p>
+       <button className = {styles.signBtn}>Sign up</button>
+       <div className="dropdown">
+  <button className="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    {lang}
   </button>
   <ul className="dropdown-menu dropdown-menu-dark">
-    <li><a className="dropdown-item active" href="#">ES</a></li>
-    <li><a className="dropdown-item" href="#">J</a></li>
-    <li><a className="dropdown-item" href="#">Something else here</a></li>
+    <li><a className="dropdown-item active" href="#" onClick={()=> {setLang("ES")}}>ES</a></li>
+    <li><a className="dropdown-item" href="#"  onClick={()=> {setLang("JP")}}>JP</a></li>
+    <li><a className="dropdown-item" href="#"  onClick={()=> {setLang("IN")}}>IN</a></li>
 
     
   </ul>
     </div>
+       </div>
+     
+     
     </div>
  
     </>

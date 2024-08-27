@@ -3,41 +3,72 @@ import styles from "../styles/Body/BookTrip.module.css"
 
 export const BookTrip = ( ) =>{
     return <>
-    <section className={styles.section4Main}>
-  <div id="carouselExampleIndicators" className="carousel slide">
-<div className="carousel-indicators">
-  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-</div>
-<div className="carousel-inner">
-  <div className="carousel-item active">
-    <img src="..." className="d-block w-100" alt="..."/>
+     <section className={styles.section3Main}>
+    <div className= {styles.info}>
+      <div className={styles.title} data-aos="flip-up">
+        <h5>Easy and Fast</h5>
+        <h1>Book Your Next Trip in 3 Easy Steps</h1>
+      </div>
+      <div className={styles.extraInfo} data-aos="flip-left" >
+        <div className={styles.icons}>
+          <img src="../src/assets/img/Section 3/Group 7.png" alt="" />
+          <img src="../src/assets/img/Section 3/Group 11.png" alt="" />
+          <img src="../src/assets/img/Section 3/Group 12.png" alt="" />
+        </div>
+        <div className={styles.words}> 
+        <div className={styles.writtenInfo}>
+          <h4>Choose Destination</h4> 
+          <p>You can easily choose your holiday place in a sec!!</p>
+        </div>
+        <div className={styles.writtenInfo}>
+          <h4>Make Payment</h4>
+          <p>Easy to pay without any disturbance !!</p>
+        </div>
+        <div className={styles.writtenInfo}>
+          <h4>Reach Airport on Select Date</h4>
+          <p>Your journey, Your day of choice !!</p>
+        </div>
+        </div>
+      </div>
+    
+    </div>
+    <div className={styles.cardMain} >
+      <div className={styles.bigCard} data-aos="flip-left">
+      <div className="card" >
+    <img src="../src/assets/img/Section 3/Rectangle 17.jpg" className="card-img-top" alt="..."/>
+     <div className="card-body">
+      
+    <div className="card-text">
+     <h4>Trip to Greece</h4>
+     <p>14-29 June | by Robbin Jason</p>
+    </div>
+    <img src="../src/assets/img/Section 3/OPTIONS (1).png" className={styles.iconSmall} alt="" />
+    <p></p>
   </div>
-  <div className="carousel-item">
-    <img src="..." className="d-block w-100" alt="..."/>
-  </div>
-  <div className="carousel-item">
-    <img src="..." className="d-block w-100" alt="..."/>
-  </div>
-</div>
-<button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-  <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-  <span className="visually-hidden">Previous</span>
-</button>
-<button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-  <span className="carousel-control-next-icon" aria-hidden="true"></span>
-  <span className="visually-hidden">Next</span>
-</button>
 </div>
 
-<div>
-  <img src="" alt="" />
-  <img src="" alt="" />
-  <img src="" alt="" />
-  <img src="" alt="" />
-  <img src="" alt="" />
-</div>
-</section>
+      </div>
+       <div className={styles.smallCard}  data-aos="flip-right">
+        <div className={styles.first}>
+        <img src="../src/assets/img/Section 3/Mask Group.png" alt="" />
+        <div className={styles.second}>
+          <p>Ongoing Tour</p>
+          <h4>Trip to home</h4>
+        
+        
+          <p>40% completed</p>
+          
+        </div>
+        
+
+        </div>
+       
+       </div>
+    </div>
+
+
+  
+  </section>
+    
     </>
 }
