@@ -3,7 +3,7 @@ import { MdOutlineMail } from "react-icons/md";
 
 export const Subscribe = () => {
   return (
-    <section className={styles.section5Main} data-aos="fade-left">
+    <section className={styles.section5Main} data-aos="fade-up">
       <div className={styles.design} >
         <form>
           <h5>Subscribe to get information, latest news, and other interesting offers about Jadoo</h5>
